@@ -1,0 +1,19 @@
+# config.yaml
+
+# Dataset paths
+TRAIN_IMAGE_DIR: "/path/to/bdd100k/images/100k/train"
+TRAIN_LABEL_JSON_PATH: "/path/to/bdd100k_labels_images_train.json"
+VALID_IMAGE_DIR: "/path/to/bdd100k/images/100k/val"
+VALID_LABEL_JSON_PATH: "/path/to/bdd100k_labels_images_val.json"
+
+# Pretrained weights
+BASE_WEIGHTS: "/path/to/fasterrcnn_resnet50_fpn_coco-258fb6c6.pth"
+
+# Hyperparameters
+LR: 0.005
+NUM_EPOCHS: 10
+SCORE_THRESH: 0.4
+IOU_THRESH: 0.5
+
+# Output
+ARTIFACTS_PATH: "artifacts"

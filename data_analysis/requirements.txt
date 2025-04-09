@@ -1,0 +1,15 @@
+numpy==1.26.4
+matplotlib==3.10.0
+opencv-python==4.11.0.86
+jupyter==1.1.1
+jupyter-client==8.6.3
+jupyter-console==6.6.3
+jupyter-core==5.7.2
+jupyter-events==0.11.0
+jupyter-lsp==2.2.5
+jupyter-server==2.15.0
+jupyter-server-terminals==0.5.3
+jupyterlab==4.3.4
+jupyterlab-pygments==0.3.0
+jupyterlab-server==2.27.3
+jupyterlab-widgets==3.0.13
